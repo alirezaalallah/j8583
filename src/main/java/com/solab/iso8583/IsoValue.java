@@ -37,7 +37,7 @@ import com.solab.iso8583.util.HexCodec;
  * 
  * @author Enrique Zamudio
  */
-public class IsoValue<T> implements Cloneable {
+public class IsoValue<T> implements Cloneable, Serializable {
 
 	private IsoType type;
 	private T value;
